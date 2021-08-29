@@ -99,7 +99,7 @@
     &kp ESC		&none		&kp PG_UP  	&none		&none 			&kp C_VOL_UP	&kp C_VOL_DN	&kp UP 		&kp DEL		&kp BSPC
     &none 		&kp HOME	&kp PG_DN	&kp END		&none 			&kp C_MUTE 	&kp LEFT 	&kp DOWN 	&kp RIGHT 	&kp SINGLE_QUOTE	
     &none	 	&none		&none 		&none 		&none 			&none	 	&none 		&none	 	&none	 	&none	
-    							&none 		&kp BSLH		&trans 		&kp RET
+    							&kp LGUI	&kp BSLH		&trans 		&kp RET
             >;
         };
 
