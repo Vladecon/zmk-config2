@@ -89,7 +89,7 @@
             bindings = <
     &kp Q 		&kp W		&kp E 		&kp R 		&kp T			&kp Y 		&kp U 		&kp I 		&kp O 		&kp P
     &hm1 LCTRL A 	&kp S 		&kp D 		&kp F 		&kp G	 		&kp H 		&kp J 		&kp K 		&kp L 		&hm1 RCTRL SEMI
-    &hm2 LSHFT Z 	&kp X 		&kp C 		&kp V 		&kp B	 		&kp N 		&kp M 		&kp COMMA   	&kp DOT  	&hm2 RSHFT SLASH
+    &hm2 LSHFT Z 	&kp X 		&kp C 		&kp V 		&kp B	 		&kp TAB		&kp M 		&kp COMMA   	&kp DOT  	&hm2 RSHFT SLASH
     							&bh 3 TAB 	&bh 2 SPACE 		&bh 1 BSPC 	&kp LGUI
             >;
         };
