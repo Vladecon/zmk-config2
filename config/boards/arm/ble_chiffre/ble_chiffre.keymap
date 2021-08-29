@@ -96,8 +96,8 @@
 
     nav {
             bindings = <
-    &kp ESC		&none		&kp PG_UP  	&none		&none 			&kp K_VOL_UP	&kp K_VOL_DN	&kp UP 		&kp DEL		&kp BSPC
-    &none 		&kp HOME	&kp PG_DN	&kp END		&none 			&kp K_MUTE 	&kp LEFT 	&kp DOWN 	&kp RIGHT 	&kp SINGLE_QUOTE	
+    &kp ESC		&none		&kp PG_UP  	&none		&none 			&kp C_VOL_UP	&kp C_VOL_DN	&kp UP 		&kp DEL		&kp BSPC
+    &none 		&kp HOME	&kp PG_DN	&kp END		&none 			&kp C_MUTE 	&kp LEFT 	&kp DOWN 	&kp RIGHT 	&kp SINGLE_QUOTE	
     &none	 	&none		&none 		&none 		&none 			&none	 	&none 		&none	 	&none	 	&none	
     							&none 		&kp BSLH		&trans 		&kp RET
             >;
@@ -114,10 +114,10 @@
 	
     num_sym2 {
             bindings = <
-    &bt BT_SEL_CMD 0 	&bt BT_SEL_CMD 1 &bt BT_SEL_CMD 2 &bt BT_SEL_CMD 3 &none 		&none 		&kp PG_UP 	&kp UP 		&none 		&kp BSPC
+    &kp N1 		&kp N2		&kp N3		&kp N4		&kp N5 			&kp N6	 	&kp N7	 	&kp N8	 	&kp N9	 	&kp N0
     &none 		&kp LBRC	&kp LBKT  	&kp LPAR	&none 			&none 		&kp RPAR 	&kp RBKT	&kp RBRC	&kp NON_US_HASH	
-    &none 		&none		&none	  	&none		&none 			&none 		&none	 	&none 		&none 		&none	
-   							&bt BT_CLR 	&trans 			&trans 		&trans
+    &bt BT_SEL_CMD 0 	&bt BT_SEL_CMD 1 &bt BT_SEL_CMD 2 &bt BT_SEL_CMD 3 &none		&none 		&none	 	&none 		&none 		&none	
+   							&trans 	&trans 			&bt BT_CLR		&trans
             >;
         };
     };
